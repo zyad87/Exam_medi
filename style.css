@@ -5,14 +5,6 @@
   .icon {
     display: none;
   }
-  
-  :root {
-    --color-pink: #df2bcd;
-    --color-black: #181616;
-    --color-blue: #234eed;
-    --color-gray: #d9d9d9;
-    --color-light-brown: #e5dbdb;
-  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -54,7 +46,7 @@
     line-height: 5rem;
   }
   .link-button {
-    background-color: var(--color-blue);
+    background-color: #234eed;
     padding: 1.5rem 5rem;
     font-size: larger;
     font-weight: bold;
@@ -71,14 +63,14 @@
   }
   
   .pink-div {
-    background-color: var(--color-pink);
+    background-color: #df2bcd;
     width: 25rem;
     height: 15rem;
     left: 70px;
     position: relative;
   }
   .blue-div {
-    background-color: var(--color-blue);
+    background-color: #234eed;
     width: 8rem;
     height: 5rem;
     transform: translate(-200%, -130%);
@@ -86,7 +78,7 @@
   }
   
   .blue-div2 {
-    background-color: var(--color-blue);
+    background-color: #234eed;
     width: 8rem;
     height: 5rem;
     transform: translate(40%, 130%);
@@ -94,7 +86,7 @@
   }
   
   .black-div {
-    background-color: var(--color-black);
+    background-color: #181616;
     width: 12.5%;
     height: 45%;
     transform: translate(80%, 50%);
@@ -104,7 +96,7 @@
   
   .footer-section {
     height: 20vh;
-    background-color: var(--color-black);
+    background-color: #181616;
   }
   
   footer {
@@ -123,7 +115,7 @@
 
   @media only screen and (max-width: 600px) {
     nav {
-      background-color: var(--color-gray);
+      background-color: #d9d9d9;
       color: black;
       font-size: 2em;
     }
@@ -134,7 +126,7 @@
       display: none;
     }
     .main-section {
-      background-color: var(--color-light-brown);
+      background-color: #e5dbdb;
       margin: 0;
       padding: 0 0 2rem 0;
       height: 90vh;
@@ -195,3 +187,8 @@
       grid-row: 3/4;
     }
   }
+
+
+
+
+
