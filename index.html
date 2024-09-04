@@ -9,8 +9,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+        #myImage img {
+  float: right;
+}
+    </style>
   </head>
   <body>
+    <img id="myImage" src="./1.png" style="display:none; width: 20%; float: left;" alt="صورة">
+
     <nav>
       <ul>
         <li><img src="https://cdn.pixabay.com/photo/2022/08/22/02/05/logo-7402513_640.png" alt="" width="10%"></li>
@@ -30,7 +37,8 @@
             header <br />
             demos text
           </h1>
-          <div class="link-button"><a href="">Read more</a></div>
+          <div class="link-button"><a href="#" onclick="document.getElementById('myImage').style.display='inline-block'">Read more</a></div>
+
         </div>
         <div class="right-container" >
           <div class="pink-div"></div>
